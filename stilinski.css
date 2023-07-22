@@ -12,8 +12,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
+    overflow-y: auto;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    width: 900px;
+    max-width: 900px;
 }
 
 .content-1,
